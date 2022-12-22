@@ -7,6 +7,7 @@
 // @match        https://*.fandom.com/wiki/Category:*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=fandom.com
 // @grant        none
+// @lincense     MIT
 // ==/UserScript==
 
 (function() {
