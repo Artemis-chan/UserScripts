@@ -2,7 +2,7 @@
 // @name         Fandom Category Image Scaler
 // @namespace    https://github.com/Artemis-chan
 // @version      1.0
-// @description  try to take over the world!
+// @description  Let's you scale up thumbnails in Category section of Fandom. Change the WIDTH const to change it from new default 200px.
 // @author       Artemis
 // @match        https://*.fandom.com/wiki/Category:*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=fandom.com
@@ -25,9 +25,9 @@
     var memberPad = WIDTH / 4;
     var linkPad = WIDTH / 2;
 
-    var cssString = `#content .category-page__member-thumbnail { width: ${WIDTH}px; height: auto} `
-    + `#content .category-page__member {padding-left: ${memberPad}px}`
-    + `#content .category-page__member-link {padding-left: ${linkPad}px}`;
+    var cssString = `#content .category-page__member-thumbnail { width: ${WIDTH}px; height: auto } `
+    + `#content .category-page__member { padding-left: ${memberPad}px }`
+    + `#content .category-page__member-link { padding-left: ${linkPad}px }`;
 
     var styleElement = document.createElement('style');
     styleElement.innerHTML = cssString;
